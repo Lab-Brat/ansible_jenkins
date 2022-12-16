@@ -1,0 +1,4 @@
+src_jenkins: '/var/jenkins'
+src_compose: 'files/docker-compose.yaml'
+jenkins_dir: '/var/lib/docker/volumes/files_jenkins-data'
+init_pass: "{{ jenkins_dir }}/_data/secrets/initialAdminPassword"
